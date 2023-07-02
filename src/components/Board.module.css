@@ -1,0 +1,22 @@
+.BoardLayout {
+  /* todo: min-width지정하기 */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  flex: 1;
+  padding: 12px 14px;
+  gap: 8px;
+  border: 1px solid red;
+}
+
+.listItem {
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
